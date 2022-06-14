@@ -23,8 +23,7 @@ func main() {
 	createNamespace(namespaceName)
 	createQueue(queueName)
 	listAllQueue(namespaceName)
-	deleteQueue(queueName)
-	getAllResourceGroups()
+	deleteQueue(queueName, namespaceName, resourceGroupName)
 }
 
 //All the function defined below is just for demo purpose
@@ -49,10 +48,6 @@ func listAllQueue(namespaceName string) error {
 	//TODO
 }
 
-func deleteQueue(queueName string) error {
-	//TODO
-}
-
-func getAllResourceGroups() error {
+func deleteQueue(queueName string, namespaceName string, resourceGroupName string) error {
 	//TODO
 }
